@@ -342,9 +342,9 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 49) return '逊呐';
-    if (score <= 99) return '你是一个一个';
-    if (score <= 149) return '哼哼哼';
-    if (score <= 199) return '三哼经';
+    if (score <= 99) return '加油';
+    if (score <= 149) return '再加把劲';
+    if (score <= 199) return '人？';
     return 'やりますね';
 }
 
